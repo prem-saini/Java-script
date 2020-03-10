@@ -1,0 +1,10 @@
+const months =['jan','feb','march','apr','may','jaun','jaly','agu','stp','oct','nov','dec']
+  
+console.log(months[0]);
+
+
+months.forEach(function (month, index) {
+
+console.log(` ${index+1} -- ${month}`);
+
+})
